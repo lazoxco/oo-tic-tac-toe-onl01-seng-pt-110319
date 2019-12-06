@@ -50,7 +50,7 @@ class TicTacToe
   end
   
   def turn
-    print "Enter a number from 1 - 9: "
+    # print "Enter a number from 1 - 9: "
     input = gets.chomp
     index = input_to_index(input)
     
