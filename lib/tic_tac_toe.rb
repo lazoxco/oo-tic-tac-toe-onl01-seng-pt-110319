@@ -96,12 +96,6 @@ class TicTacToe
     while over? == false do 
       turn
     end
-    
-    if won?
-      puts "Congratulations #{winner}!"
-    elsif draw?
-      puts "Cat's Game!"
-    end
   
   end 
   
